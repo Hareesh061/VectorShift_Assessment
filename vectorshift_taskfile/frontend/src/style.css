@@ -1,0 +1,84 @@
+/* /frontend/src/style.css */
+body{
+  height: 100vh;
+  margin: 0;
+  background: 
+      linear-gradient(to right, rgb(32, 26, 48), rgb(15, 4, 56));
+}
+
+.submit-contain {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2px;
+}
+
+.submit-button {
+  background-color: #3ca440; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #4239e0;
+}
+
+.submit-button:active {
+  background-color: #3e8e41;
+}
+
+.react-flow__pane {
+  position: relative;
+}
+
+.react-flow__node {
+  border: 1px solid #460e7e;
+  border-radius: 3px;
+  background: #2b014f;
+  padding: 10px;
+  box-shadow: 0 3px 4px 3px rgba(245, 243, 243, 0.2);
+  font-size: 12px;
+}
+
+.react-flow__handle {
+  border-radius: 50%;
+  background: #555;
+  width: 10px;
+  height: 10px;
+}
+
+.react-flow__node[data-type="Input"] {
+  background: #4255e5;
+}
+
+.react-flow__node[data-type="LLM"] {
+  background: #cce5ff; 
+}
+
+.react-flow__node[data-type="Output"] {
+  background: #c7b9e8; 
+}
+
+.react-flow__node[data-type="Text"] {
+  background: #27c1c1; 
+}
+
+.react-flow__edge {
+  stroke-width: 200px;
+  stroke: #e4eae5;
+}
+
+.react-flow__minimap {
+  border: 1px solid #f3f6f8;
+  background: #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
