@@ -54,5 +54,7 @@ Some work images:
 
 
 
+**Note: Here I'm not integrated from frontend to backend.**
+
 
 **Keep Learning**
