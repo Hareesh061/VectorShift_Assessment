@@ -2,7 +2,7 @@
 
 **Would you like to run this code? Then follow the steps:**
 
-**1. Clone this repo in your machine, Run the frontend code by navigating to the /frontend directory and running (1) npm i and (2) npm start. 
+**1. Clone this repo in your machine, Run the frontend code by navigating to the /frontend directory and running (1) npm i and (2) npm start.**
 
 **2. Run backend code by navigating to the /backend directory and running uvicorn main:app --reload.**
 
